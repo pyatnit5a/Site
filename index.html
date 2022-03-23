@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="color.css" />
+    <style>
+      .conteiner {
+        text-align: center;
+      }
+      table {
+        width: 500px;
+        border: 1px solid rgb(24, 12, 131);
+        margin: auto;
+      }
+
+      li {
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="foto">
+        <h1>Кристина</h1>
+        <br />
+        <img src="myfoto.JPG" alt="тут должно быть фото" width="300" />
+      </div>
+      <br />
+      <hr />
+      <p>
+        Мне <strong><em>21</em></strong> год, я из
+        <strong><em>Челябинска</em></strong> . Я учусь на факультете
+        <strong><em>психологии</em></strong> и увлекаюсь
+        <strong><em>програмированием</em></strong
+        >.
+      </p>
+      <div class="box">
+        <div class="one">
+          <h2><strong>Мои увлечения</strong></h2>
+          <ul>
+            <li>
+              Очень люблю <strong><em>водить</em></strong> машину
+            </li>
+            <li>
+              Люблю <strong><em>изучать</em></strong> новое: английский язык,
+              програмирование
+            </li>
+            <li>
+              <strong><em>Искать</em></strong> новую информацию, интересные
+              фильмы, необычную литературу
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="box">
+        <div class="two">
+          <h2>Мой опыт работы</h2>
+
+          <table class="table">
+            <thead>
+              <tr>
+                <td>Место работы</td>
+                <td>Должность</td>
+                <td>Время работы</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Colins</td>
+                <td>Продавец-консультант</td>
+                <td>2018-2019</td>
+              </tr>
+              <tr>
+                <td>Kira Plastinina</td>
+                <td>Stylist</td>
+                <td>2019-2021</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <hr />
+      <div class="box">
+        <div class="three">
+          <form>
+            <div class="nameone">
+              <label for="yourname">Ваше имя:</label>
+              <input type="text" id="yourname" placeholder="Введите свое имя" />
+            </div>
+            <br />
+            <div class="emailone">
+              <label for="youremail">Ваш email</label>
+              <input
+                type="email"
+                id="youremail"
+                placeholder="Введите своей email"
+              />
+            </div>
+            <br />
+            <div>
+              <label for="message">Ваше сообщение:</label>
+              <br />
+              <br />
+              <textarea
+                id="message"
+                cols="29"
+                rows="7"
+                placeholder="Введите свое сообщение"
+              ></textarea>
+            </div>
+            <br />
+            <button class="btn" type="submit">Отправить</button>
+          </form>
+        </div>
+      </div>
+      <hr />
+      <div>
+        <button class="btn">
+          <a href="https://vk.com/kristina.pyatnitsa" target="blank"
+            >ВКонтакте</a
+          >
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

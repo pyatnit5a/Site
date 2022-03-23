@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap");
+
+.conteiner {
+  max-width: 1500px;
+  margin: auto;
+  padding: 50px;
+  border: 50px;
+}
+.foto {
+  margin: auto;
+  padding: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+body {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  background-color: #faf0e6;
+}
+
+h1 {
+  color: rgb(112, 68, 110);
+}
+h2 {
+  color: #008080;
+}
+.two {
+  padding: 50px;
+  border-radius: 10px;
+  background: rgba(0, 153, 255, 0.3);
+  border: 1px solid rgb(59, 9, 139);
+}
+.one {
+  padding: 50px;
+  border-radius: 10px;
+  background: rgba(124, 32, 211, 0.3);
+  border: 1px solid rgb(139, 9, 139);
+}
+.three {
+  padding: 50px;
+  border-radius: 10px;
+  background: rgba(151, 100, 23, 0.3);
+  border: 1px solid rgba(182, 136, 12, 0.651);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: all.2s;
+}
+a:hover {
+  color: rgb(71, 3, 116);
+  font-size: 20px;
+}
+a:visited {
+  color: rgb(1, 1, 1);
+}
+.one:hover {
+  background: rgba(67, 9, 122, 0.25);
+}
+.two:hover {
+  background: rgba(28, 88, 179, 0.25);
+}
+.three:hover {
+  background: rgba(187, 124, 29, 0.25);
+}
+.btn {
+  background-color: rgba(184, 142, 150, 0.185);
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.575);
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgba(206, 62, 91, 0.479);
+}
+textarea {
+  border-radius: 7px;
+}
+input {
+  border-radius: 5px;
+}
+.table {
+  width: 100%;
+}
+.table td {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.table tr:nth-child(odd) {
+  background: rgb(255, 255, 255);
+}
+.box {
+  width: 60%;
+  display: inline-block;
+}
+
+@media (max-width: 900px) {
+  .table tr {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .table th,
+  .table td {
+    display: block;
+    text-align: center;
+  }
+}
+.table tr:hover {
+  background-color: rgb(18, 99, 136);
+  transition: 0.3s;
+}
